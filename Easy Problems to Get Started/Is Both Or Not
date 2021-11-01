@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int x;
+	cin>>x;
+	string ans;
+	if((x%5==0)&&(x%11==0))
+	    ans="BOTH";
+	else if(x%5==0||x%11==0)
+	    ans="ONE";
+	else 
+	    ans="NONE";
+	    
+	std::cout <<ans<< std::endl;
+	
+	return 0;
+}
